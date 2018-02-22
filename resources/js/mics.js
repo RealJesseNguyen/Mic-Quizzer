@@ -329,5 +329,58 @@ var mics = [
                     <li>Can be used for vocals and guitars</li>\
                     <li>Rich mid-range and top end</li>\
                     <li>Phantom powered</li>'
+    }),
+    new mic({
+        name: 'Audio-Technica AT4040',
+        img: 'resources/img/audiotechnicaat4040.jpg',
+        type: 'Condenser',
+        pattern: 'Cardioid',
+        response: '20 Hz - 20 kHz',
+        SPL: '145 dB (for THD 1%)',
+        impedance: '100 ohms',
+        SNR: '82 dB',
+        noise: '12 dB'
+    }),
+    new mic({
+        name: 'AKG C24',
+        img: 'resources/img/akgc24.jpg',
+        type: 'Condenser',
+        pattern: 'Selectable',
+        response: '30 Hz - 20 kHz',
+        SPL: '117.5 dB (for THD 0.5%)',
+        impedance: '200 ohms',
+        noise: '<22 dB'
+    }),
+    new mic({
+        name: 'Sony C-48',
+        img: 'resources/img/sonyc48.jpg',
+        type: 'Condenser',
+        pattern: 'Selectable',
+        response: '30 Hz - 16 kHz',
+        SPL: '>128 dB',
+        impedance: '150 ohms',
+        SNR: '>70 dB',
+        noise: '<24 dB'
+    }),
+    new mic({
+        name: 'Neumann M 50c',
+        img: 'resources/img/neumannm50c.jpg',
+        type: 'Condenser',
+        pattern: 'Omni-directional',
+        response: '40 Hz - 16 kHz',
+        SPL: '>126 dB (for THD 0.5%)',
+        impedance: '250 ohms',
+        noise: '<28 dB'
+    }),
+    new mic({
+        name: 'Audio-Technica AT3031',
+        img: 'resources/img/audiotechnicaat3031.jpg',
+        type: 'Condenser',
+        pattern: 'Cardioid',
+        response: '30 Hz - 20 kHz',
+        SPL: '148 dB (for THD 1%)',
+        impedance: '250 ohms',
+        SNR: '78 dB',
+        noise: '16 dB'
     })
 ];
